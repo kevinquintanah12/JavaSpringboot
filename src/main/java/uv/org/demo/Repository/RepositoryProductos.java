@@ -11,3 +11,4 @@ import uv.org.demo.Entitys.Producto;
 public interface RepositoryProductos extends JpaRepository<Producto, Long>{
     List<Producto> findByNombreContainingIgnoreCase(String nombre);
 }
+//mapeo de productos
